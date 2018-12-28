@@ -1,0 +1,129 @@
+* {
+    box-sizing:border-box;
+}
+.box {
+    border: 1px solid rgb(19, 18, 18);
+}
+nav {
+    position: relative;
+    background-color: rgba(3, 48, 66, 0.972);
+    height: 150px;
+    width: 100%;
+}
+nav a.name {
+    padding: 35px 60px;
+    position:absolute;
+    text-decoration: none;
+    left: 0px;
+    top: 0px;
+    width: 400px;
+    height: 100px; 
+    font-size: 2.7em;
+    font-weight: bold;
+    color: rgb(255, 255, 255)
+}
+.fa1,.fa2 {
+    position:absolute;
+    padding: 20px;
+    font-size: 2.1em;
+    width: 50px;
+    left: 520px;
+    top: 28px;
+    /* text-align: center; */
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    color: white;
+    border-radius: 50%;
+  }
+
+  .fa2 {
+    left: 565px;
+  }
+
+  .fa:hover, nav a.name:hover, div .listItem:hover {
+      color: rgb(61, 189, 146);
+  }
+
+  div .list {
+      position: absolute;
+      list-style-type: none;
+      top: 30px;
+      left: 900px;
+      padding:0;
+      margin:0;
+  }
+
+  div .listItem {
+     display: block;
+     float: left;
+     color: white;
+     padding: 10px;
+     font-size: 2.3em;
+     font-weight: bold;
+  }
+  .menu {
+      display: none;
+  }
+  div section.profile {
+      background-color: rgb(61, 189, 146);
+      width: 100%;
+      height: 450px;
+      position: relative;
+  }
+  div section.profile img{
+      position: absolute;
+      border-radius: 50%;
+      top: 30%;
+      left: 50%;
+      border: 5px solid white;
+      transform: translate(-70%,-50%);
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+  }
+
+  div section.profile .mytext1,div section.profile .mytext2 {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    color: white;
+    font-size: 2.3em;
+    top: 80%;
+    left: 50%;
+    width:auto;
+    transform: translateX(-50%);
+    
+  }
+
+  div section.profile .hline {
+    position: absolute;
+    margin: auto; 
+    border: 3px solid white;
+    border-radius: 1px;
+    width: 290px;
+    top: 75%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  div section.profile .mytext1 {
+    position: absolute;
+    font-size: 2.7em;
+    top: 60%;
+    left: 50%;
+    width:auto;
+    transform: translateX(-50%);
+    font-weight: bold;
+    text-align: center;
+  }
+
+    @media only screen and (max-width:1395px) {
+               div .list, div .listItem {
+            display: none;
+        }
+
+    }
+
+ 
+
